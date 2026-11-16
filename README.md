@@ -3,7 +3,7 @@
 This is my personal portfolio website built with Node.js, Express, and EJS for Web & Script, Assignment 2.
 
 ## Live Links
-- Live Site (Render): PLUG IN
+- Live Site (Render): https://zafirsm.onrender.com
 - GitHub Repo: https://github.com/Zafir-SM/Assignment2
 
 ## Pages Included
