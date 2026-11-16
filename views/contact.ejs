@@ -1,0 +1,51 @@
+<%- include('partials/header') %>
+<%- include('partials/main_nav') %>
+
+<main class="container page-content">
+  <div class="page-layout">
+    <!-- Left Column -->
+    <div class="left-column">
+      <div class="sidebar-card">
+        <h3>Inquiries</h3>
+        <p>Send questions, comments, or project collaboration requests using the contact form.</p>
+        <p>(P.S. Please add me on LinkedIn, I'd be happy to talk there as well!)</p>
+        <a href="https://www.linkedin.com/in/zafirsm" target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-linkedin"></i> My LinkedIn Page
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="main-card">
+        <h2>Send a Message</h2>
+        <form action="mailto:muhammad.sheikh4@ontariotechu.net" method="post" enctype="text/plain" name="contactForm">
+          <div class="form-group">
+            <label for="name" class="form-label">Your Name:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your name or nickname here" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Your Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@domain.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-label">Cell No.:</label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="123-456-7890">
+          </div>
+
+          <div class="form-group">
+            <label for="comments" class="form-label">Comments / Message:</label>
+            <textarea class="form-control" id="comments" name="comments" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-secondary">Reset Form</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>

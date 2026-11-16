@@ -1,0 +1,54 @@
+<%- include('partials/header') %>
+<%- include('partials/main_nav') %>
+
+<main class="container page-content">
+  <div class="page-layout">
+    <!-- Left Column -->
+    <div class="left-column">
+      <div class="sidebar-card">
+        <h3>Coursework</h3>
+        <ul>
+          <li><a href="#proj1">Cisco Lab Setup</a></li>
+          <li><a href="#proj2">Linux Server Security</a></li>
+          <li><a href="#proj3">Database Inventory</a></li>
+          <li><a href="#proj4">Git Version Control</a></li>
+          <li><a href="#proj5">Responsive Layouts</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="main-card">
+        <h2>Academic &amp; Lab Projects</h2>
+
+        <section id="proj1" class="project-item">
+          <h4>Project 1: Cisco Enterprise Routing Lab</h4>
+          <p>Configured multi-area OSPF routing protocols and VLAN trunking across Cisco Catalyst switches. Implemented access control lists (ACLs) to regulate inter-VLAN communications.</p>
+        </section>
+
+        <section id="proj2" class="project-item">
+          <h4>Project 2: Linux Server Hardening</h4>
+          <p>Secured an Ubuntu enterprise environment by establishing UFW firewall restrictions, SSH public-key authentication, and automated fail2ban attack prevention systems.</p>
+        </section>
+
+        <section id="proj3" class="project-item">
+          <h4>Project 3: Relational Database System</h4>
+          <p>Designed a normalized relational database schema with PostgreSQL. Created stored procedures, views, and integrity triggers for managing laboratory device inventory.</p>
+        </section>
+
+        <section id="proj4" class="project-item">
+          <h4>Project 4: Git Collaborative Deployment</h4>
+          <p>Established team-based software workflows utilizing branch tracking, pull requests, and automated deployment scripts hosted via GitHub Pages.</p>
+        </section>
+
+        <section id="proj5" class="project-item">
+          <h4>Project 5: CSS Responsive Wireframe</h4>
+          <p>Constructed a multi-device fluid layout conforming to 960 grid architecture using CSS media queries and native transitions without third-party frameworks.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
