@@ -1,11 +1,43 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('partials/header') %>
+<%- include('partials/main_nav') %>
+
+<main class="container page-content">
+  <div class="page-layout">
+    <!-- Left Column -->
+    <div class="left-column">
+      <div class="sidebar-card">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/about"><i class="fa-solid fa-user"></i> About Me Profile</a></li>
+          <li><a href="/projects"><i class="fa-solid fa-folder-open"></i> Featured Work</a></li>
+          <li><a href="/contact"><i class="fa-solid fa-envelope"></i> Get in Touch</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="main-card">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Welcome! I am an IT and Networking student showcasing course projects, technical labs, and hands-on coursework. On this page you will find info on me as a person, as well as a place where you can contact me as well!</p>
+
+        <div class="focus-grid">
+          <div class="focus-box">
+            <i class="fa-solid fa-server focus-icon"></i>
+            <p><strong>Networking</strong></p>
+          </div>
+          <div class="focus-box">
+            <i class="fa-solid fa-shield-halved focus-icon"></i>
+            <p><strong>Security</strong></p>
+          </div>
+          <div class="focus-box">
+            <i class="fa-solid fa-code focus-icon"></i>
+            <p><strong>Web Dev</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
